@@ -2,5 +2,8 @@ numpy
 pandas
 matplotlib
 scikit-learn
+scipy
 torch
 open3d
+joblib
+tqdm
