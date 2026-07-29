@@ -1,0 +1,7 @@
+feature,gini_importance
+distance_T0,0.34802687773396235
+normal_dot_abs,0.21809290792400735
+log_normalized_density_ratio,0.19472434133087957
+fpfh_distance,0.1850120511947653
+point_to_plane_residual,0.054143821816385274
+is_mutual_nn,0.0

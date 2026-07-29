@@ -1,0 +1,12 @@
+{
+  "num_candidates_total": 2712,
+  "num_candidates_used": 2712,
+  "weight_threshold": 0.0,
+  "min_raw_weight_used": 1.0,
+  "max_raw_weight_used": 1.0,
+  "mean_raw_weight_used": 1.0,
+  "median_raw_weight_used": 1.0,
+  "svd_singular_1": 0.24213797260274128,
+  "svd_singular_2": 0.10833110673699875,
+  "svd_singular_3": 0.043779472509248275
+}

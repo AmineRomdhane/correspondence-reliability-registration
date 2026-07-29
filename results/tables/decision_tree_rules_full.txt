@@ -1,0 +1,85 @@
+|--- normal_dot_abs <= 0.9003
+|   |--- normal_dot_abs <= 0.7174
+|   |   |--- point_to_plane_residual <= 0.1382
+|   |   |   |--- fpfh_distance <= 56.8610
+|   |   |   |   |--- normal_dot_abs <= 0.4814
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- normal_dot_abs >  0.4814
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- fpfh_distance >  56.8610
+|   |   |   |   |--- log_normalized_density_ratio <= 0.6596
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- log_normalized_density_ratio >  0.6596
+|   |   |   |   |   |--- class: 0
+|   |   |--- point_to_plane_residual >  0.1382
+|   |   |   |--- distance_T0 <= 0.1944
+|   |   |   |   |--- fpfh_distance <= 115.9300
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- fpfh_distance >  115.9300
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- distance_T0 >  0.1944
+|   |   |   |   |--- class: 0
+|   |--- normal_dot_abs >  0.7174
+|   |   |--- fpfh_distance <= 94.4116
+|   |   |   |--- normal_dot_abs <= 0.7892
+|   |   |   |   |--- log_normalized_density_ratio <= -0.1919
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- log_normalized_density_ratio >  -0.1919
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- normal_dot_abs >  0.7892
+|   |   |   |   |--- log_normalized_density_ratio <= -0.1854
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- log_normalized_density_ratio >  -0.1854
+|   |   |   |   |   |--- class: 0
+|   |   |--- fpfh_distance >  94.4116
+|   |   |   |--- point_to_plane_residual <= 0.1663
+|   |   |   |   |--- distance_T0 <= 0.0957
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- distance_T0 >  0.0957
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- point_to_plane_residual >  0.1663
+|   |   |   |   |--- class: 0
+|--- normal_dot_abs >  0.9003
+|   |--- fpfh_distance <= 49.5366
+|   |   |--- normal_dot_abs <= 0.9749
+|   |   |   |--- point_to_plane_residual <= 0.0527
+|   |   |   |   |--- log_normalized_density_ratio <= -0.2828
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- log_normalized_density_ratio >  -0.2828
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- point_to_plane_residual >  0.0527
+|   |   |   |   |--- fpfh_distance <= 45.0556
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- fpfh_distance >  45.0556
+|   |   |   |   |   |--- class: 1
+|   |   |--- normal_dot_abs >  0.9749
+|   |   |   |--- fpfh_distance <= 37.9526
+|   |   |   |   |--- log_normalized_density_ratio <= -0.2662
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- log_normalized_density_ratio >  -0.2662
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- fpfh_distance >  37.9526
+|   |   |   |   |--- log_normalized_density_ratio <= -0.2266
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- log_normalized_density_ratio >  -0.2266
+|   |   |   |   |   |--- class: 1
+|   |--- fpfh_distance >  49.5366
+|   |   |--- normal_dot_abs <= 0.9649
+|   |   |   |--- distance_T0 <= 0.2077
+|   |   |   |   |--- log_normalized_density_ratio <= 0.3216
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- log_normalized_density_ratio >  0.3216
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- distance_T0 >  0.2077
+|   |   |   |   |--- class: 0
+|   |   |--- normal_dot_abs >  0.9649
+|   |   |   |--- fpfh_distance <= 109.5239
+|   |   |   |   |--- log_normalized_density_ratio <= 0.3622
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- log_normalized_density_ratio >  0.3622
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- fpfh_distance >  109.5239
+|   |   |   |   |--- distance_T0 <= 0.1957
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- distance_T0 >  0.1957
+|   |   |   |   |   |--- class: 0

@@ -1,0 +1,38 @@
+{
+  "heldout_case_id": "real_20260626_143302_palletizer_005_part_2_refined_from_voxel005",
+  "train_rows": 90919,
+  "val_rows": 23359,
+  "heldout_corr_rows_not_used_for_training": 2000,
+  "train_positive_rate": 0.3559432029724121,
+  "val_positive_rate": 0.3491159677505493,
+  "pos_weight": 1.8094369940053148,
+  "best_epoch": 14,
+  "best_val_loss": 0.787039489849754,
+  "epochs_run": 26,
+  "val_sample_ids": [
+    "box_sphere_added_outliers_medium_2",
+    "box_sphere_partial_overlap_hard_mixed",
+    "box_sphere_partial_overlap_medium_3",
+    "box_sphere_static_noise_medium_2",
+    "l_shape_partial_overlap_hard_mixed",
+    "l_shape_partial_overlap_medium_3",
+    "l_shape_scene_change_hard_mixed",
+    "l_shape_strong_noise_medium_3",
+    "real_20260626_144015_pallet_rack_05_part1_refined_from_voxel005_easy",
+    "real_20260626_161911_pallet_rack_cluster021_part1_refined_from_voxel005_easy",
+    "real_20260626_163327_pallet_rack_cluster022_part1_ransac_icp_voxel005_easy",
+    "real_20260703_131528_rm00_0260_02_cluster022_part1_ransac_icp_voxel005_medium",
+    "real_20260706_145031_table2_cluster004_table2_refined_from_identity_easy",
+    "real_20260706_153654_table_fanuc_cluster000_table1_refined_from_identity_easy",
+    "wall_column_added_outliers_medium_2",
+    "wall_column_added_outliers_medium_3",
+    "wall_column_partial_overlap_hard_mixed"
+  ],
+  "features": [
+    "distance_T0",
+    "normal_dot_abs",
+    "fpfh_distance",
+    "log_normalized_density_ratio",
+    "is_mutual_nn"
+  ]
+}

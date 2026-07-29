@@ -1,0 +1,5 @@
+sample_id,method,fitness,rmse,num_correspondences,translation_error_vs_label_m,rotation_error_vs_label_deg,max_corr_distance,voxel_size
+real_20260707_154904_ur10_choko_base_cluster016_base_refined_from_center_v2_medium,initial_T0,1.0,0.04170416115844517,887,0.10302123326003206,0.9498957636442228,0.5,0.05
+real_20260707_154904_ur10_choko_base_cluster016_base_refined_from_center_v2_medium,mlp_weighted_svd,1.0,0.03987153285744316,887,0.13519100184374314,1.6133910950844375,0.5,0.05
+real_20260707_154904_ur10_choko_base_cluster016_base_refined_from_center_v2_medium,normal_icp,1.0,0.03607251548954616,887,0.20531737925586474,3.4821947448840076,0.5,0.05
+real_20260707_154904_ur10_choko_base_cluster016_base_refined_from_center_v2_medium,pseudo_gt_label,1.0,0.0367390502510886,887,0.0,0.0,0.5,0.05

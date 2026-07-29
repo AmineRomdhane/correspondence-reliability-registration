@@ -1,0 +1,3 @@
+dataset,num_rows,num_positive,num_negative,positive_rate
+original,86900,32060,54840,0.36892980437284234
+balanced_global,64120,32060,32060,0.5

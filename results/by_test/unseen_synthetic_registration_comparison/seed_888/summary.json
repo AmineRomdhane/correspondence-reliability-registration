@@ -1,0 +1,30 @@
+{
+  "test_name": "unseen_synthetic_registration_comparison",
+  "seed": 888,
+  "output_dir": "/home/roam5170/GMC6003_registration/results/by_test/unseen_synthetic_registration_comparison/seed_888",
+  "model_path": "/home/roam5170/GMC6003_registration/results/by_test/mlp_synthetic_plus_all_real_v3_final/mlp_synthetic_plus_all_real_v3_final_model.pt",
+  "scaler_path": "/home/roam5170/GMC6003_registration/results/by_test/mlp_synthetic_plus_all_real_v3_final/mlp_synthetic_plus_all_real_v3_final_scaler.pkl",
+  "voxel_size": 0.05,
+  "normal_radius": 0.15,
+  "fpfh_radius": 0.25,
+  "density_radius": 0.15,
+  "max_corr_distance": 0.25,
+  "icp_max_iteration": 50,
+  "weight_threshold": 0.0,
+  "num_reference_downsampled": 2471,
+  "num_observation_downsampled": 3288,
+  "num_candidate_correspondences": 2782,
+  "mlp_weight_stats": {
+    "num_candidates_total": 2782,
+    "num_candidates_used": 2782,
+    "weight_threshold": 0.0,
+    "min_raw_weight_used": 4.744796555655739e-08,
+    "max_raw_weight_used": 0.8732472658157349,
+    "mean_raw_weight_used": 0.40465847519248244,
+    "median_raw_weight_used": 0.39736703038215637,
+    "svd_singular_1": 0.2275951621833335,
+    "svd_singular_2": 0.10328631970539018,
+    "svd_singular_3": 0.039584041174650045
+  },
+  "metrics_csv": "/home/roam5170/GMC6003_registration/results/by_test/unseen_synthetic_registration_comparison/seed_888/registration_comparison_metrics.csv"
+}

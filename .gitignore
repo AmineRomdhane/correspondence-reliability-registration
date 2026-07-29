@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+.~lock.*
+._*
+*#
+
+# Large raw data
+*.ply
+*.pcd
+*.obj
+*.stl
+*.step
+*.stp
+*.bag
+*.db3
+*.mcap
+
+# Model checkpoints
+*.pt
+*.pth
+*.onnx
+
+# Heavy/generated folders
+results/pointclouds/
+real_results/pointclouds/
+data/raw/
+data/CAD/
+data/real_raw/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz

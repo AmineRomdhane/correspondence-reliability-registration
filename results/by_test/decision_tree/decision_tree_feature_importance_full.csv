@@ -1,0 +1,7 @@
+feature,importance
+normal_dot_abs,0.7781889788265641
+fpfh_distance,0.16063904979348043
+log_normalized_density_ratio,0.029124855787628044
+distance_T0,0.01631845053186406
+point_to_plane_residual,0.015728665060463214
+is_mutual_nn,0.0

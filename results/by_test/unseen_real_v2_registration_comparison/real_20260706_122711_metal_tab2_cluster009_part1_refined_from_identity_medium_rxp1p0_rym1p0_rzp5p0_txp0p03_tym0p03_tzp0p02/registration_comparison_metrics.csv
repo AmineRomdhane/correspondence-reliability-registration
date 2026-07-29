@@ -1,0 +1,5 @@
+sample_id,method,fitness,rmse,num_correspondences,translation_error_vs_pseudo_gt_m,rotation_error_vs_pseudo_gt_deg,time_s,max_corr_distance,voxel_size
+real_20260706_122711_metal_tab2_cluster009_part1_refined_from_identity_medium,initial_T0,0.9944165270798436,0.1836030662744007,1781,0.041338521023476585,5.204418547082022,0.0,0.5,0.05
+real_20260706_122711_metal_tab2_cluster009_part1_refined_from_identity_medium,one_shot_unweighted_svd,1.0,0.15357707088141348,1791,0.10099010312063945,5.066995184701762,0.0007296960102394223,0.5,0.05
+real_20260706_122711_metal_tab2_cluster009_part1_refined_from_identity_medium,mlp_weighted_svd,1.0,0.16404706236925298,1791,0.08073383938122815,5.333108487171588,0.08009318693075329,0.5,0.05
+real_20260706_122711_metal_tab2_cluster009_part1_refined_from_identity_medium,pseudo_gt_label,1.0,0.10730402036311376,1791,0.0,0.0008282572509041991,0.0,0.5,0.05

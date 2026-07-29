@@ -1,0 +1,6 @@
+distance_T0
+point_to_plane_residual
+normal_dot_abs
+fpfh_distance
+log_normalized_density_ratio
+is_mutual_nn

@@ -1,0 +1,22 @@
+{
+  "test_name": "v3_leave_one_case_registration_comparison",
+  "num_cases": 12,
+  "test_difficulty": "medium",
+  "config_path": "/home/roam5170/GMC6003_registration/configs/dataset_samples_synthetic_plus_real_curated_clean_v3.csv",
+  "correspondence_csv": "/home/roam5170/GMC6003_registration/results/learning_data_synthetic_plus_real_curated_clean_v3/all_correspondences.csv",
+  "output_root": "/home/roam5170/GMC6003_registration/results/by_test/v3_leave_one_case_registration_comparison",
+  "init_rx_deg": 1.0,
+  "init_ry_deg": -1.0,
+  "init_rz_deg": 5.0,
+  "init_tx": 0.03,
+  "init_ty": -0.03,
+  "init_tz": 0.02,
+  "weight_threshold": 0.0,
+  "features": [
+    "distance_T0",
+    "normal_dot_abs",
+    "fpfh_distance",
+    "log_normalized_density_ratio",
+    "is_mutual_nn"
+  ]
+}

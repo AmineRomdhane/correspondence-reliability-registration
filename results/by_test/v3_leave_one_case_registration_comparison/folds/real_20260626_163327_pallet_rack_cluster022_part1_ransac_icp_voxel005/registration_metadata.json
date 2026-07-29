@@ -1,0 +1,23 @@
+{
+  "heldout_case_id": "real_20260626_163327_pallet_rack_cluster022_part1_ransac_icp_voxel005",
+  "sample_id": "real_20260626_163327_pallet_rack_cluster022_part1_ransac_icp_voxel005_medium",
+  "reference_path": "/home/roam5170/GMC6003_registration/segmented_scene_trial11_point_merge/merged_cluster_022_part_1.ply",
+  "observation_path": "/home/roam5170/GMC6003_registration/data/CAD/pallet_rack_05_part1_proxy_m.pcd",
+  "label_transform_path": "/home/roam5170/GMC6003_registration/real_results/matrices/20260626_163327_pallet_rack_cluster022_part1_ransac_icp_voxel005__T_scene_cad.txt",
+  "label_direction": "obs_to_ref",
+  "voxel_size": 0.05,
+  "normal_radius": 0.15,
+  "fpfh_radius": 0.25,
+  "density_radius": 0.15,
+  "max_corr_distance": 0.5,
+  "weight_threshold": 0.0,
+  "init_rx_deg": 1.0,
+  "init_ry_deg": -1.0,
+  "init_rz_deg": 5.0,
+  "init_tx": 0.03,
+  "init_ty": -0.03,
+  "init_tz": 0.02,
+  "num_reference_downsampled": 140,
+  "num_observation_downsampled": 1353,
+  "num_candidate_correspondences": 1275
+}

@@ -1,0 +1,5 @@
+sample_id,method,fitness,rmse,num_correspondences,translation_error_vs_pseudo_gt_m,rotation_error_vs_pseudo_gt_deg,time_s,max_corr_distance,voxel_size
+real_20260626_162437_pallet_rack_cluster022_ransac_icp_voxel005_medium,initial_T0,0.7243163340724317,0.29639985992522,980,0.9024563697457683,12.578083224621798,0.0,0.5,0.05
+real_20260626_162437_pallet_rack_cluster022_ransac_icp_voxel005_medium,one_shot_unweighted_svd,0.811529933481153,0.24608959114184348,1098,0.8445657323578795,19.154160258713027,0.0006176909664645791,0.5,0.05
+real_20260626_162437_pallet_rack_cluster022_ransac_icp_voxel005_medium,mlp_weighted_svd,0.7819660014781966,0.24979773244251888,1058,0.8532479864517842,15.473208506666388,0.07183238002471626,0.5,0.05
+real_20260626_162437_pallet_rack_cluster022_ransac_icp_voxel005_medium,pseudo_gt_label,1.0,0.10024974107833158,1353,0.0,0.0,0.0,0.5,0.05
