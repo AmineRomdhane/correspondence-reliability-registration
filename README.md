@@ -10,6 +10,12 @@ Rigid point cloud registration is a key component in simultaneous localization a
 
 This project studies whether a lightweight machine-learning model can predict reliability weights for candidate correspondences, and whether these weights improve one-shot rigid registration.
 
+## Visual Example
+
+The figure below illustrates the idea of candidate correspondences. Reliable correspondences, called inliers, support the correct alignment between the source and reference point clouds. Unreliable correspondences, called outliers, can come from noise, partial overlap, wrong nearest-neighbor matches, or scene changes.
+
+![Inliers and outliers example](docs/images/inliers_outliers_example.png)
+
 ## Method Summary
 
 The pipeline is:
@@ -104,7 +110,15 @@ Run:
 
 This trains the multilayer perceptron (MLP) that predicts the reliability weight of each candidate correspondence.
 
-### Step 6: Run the unseen synthetic registration comparison
+### Step 6: Train the final MLP model used for registration comparison
+
+Run:
+
+    python3 src/train_final_mlp_synthetic_plus_all_real_v3.py
+
+This generates the model checkpoint used by the registration comparison script. Model checkpoint files are not stored directly in Git, so this step must be run before the registration comparison.
+
+### Step 7: Run the unseen synthetic registration comparison
 
 Run:
 
